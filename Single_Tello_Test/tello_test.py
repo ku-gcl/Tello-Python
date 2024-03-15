@@ -5,7 +5,9 @@ import time
 
 start_time = str(datetime.now())
 
-file_name = sys.argv[1]
+file_path = '/Users/tatsuya_1/Documents/Tello-Python/Single_Tello_Test'
+file_name = os.path.join(file_path, 'command_debug.txt')
+# file_name = sys.argv[1]
 
 f = open(file_name, "r")
 commands = f.readlines()
@@ -17,7 +19,7 @@ for command in commands:
 
         if command.find('delay') != -1:
             sec = float(command.partition('delay')[2])
-            print 'delay %s' % sec
+            print('delay %s' % sec)
             time.sleep(sec)
             pass
         else:
@@ -25,8 +27,9 @@ for command in commands:
 
 log = tello.get_log()
 
-out = open('log/' + start_time + '.txt', 'w')
+out = open('Single_Tello_Test/log/' + start_time + '.txt', 'w')
 for stat in log:
     stat.print_stats()
     str = stat.return_stats()
     out.write(str)
+out.close()
