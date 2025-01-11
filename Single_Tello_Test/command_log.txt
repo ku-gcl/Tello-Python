@@ -1,0 +1,25 @@
+command
+takeoff
+down30
+stop
+delay 5
+forward 50
+back 200
+delay 5
+land
+
+
+command
+takeoff
+up 30
+stop
+delay 5
+forward 200
+back 200
+delay 5
+land
+
+command
+delay 2
+attitude?
+delay 2

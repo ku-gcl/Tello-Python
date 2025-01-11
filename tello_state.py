@@ -2,9 +2,7 @@ import socket
 from time import sleep
 import curses
 
-INTERVAL = 0.2
-
-
+INTERVAL = 0.1
 
 def report(str):
     stdscr.addstr(0, 0, str)
@@ -31,10 +29,11 @@ if __name__ == "__main__":
         while True:
             index += 1
             response, ip = socket.recvfrom(1024)
+            # print(response)
             if response == 'ok':
                 continue
-            out = response.replace(';', ';\n')
-            out = 'Tello State:\n' + out
+            out = response.replace(b';', b';\n')
+            out = b'Tello State:\n' + out
             report(out)
             sleep(INTERVAL)
     except KeyboardInterrupt:

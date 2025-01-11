@@ -1,0 +1,6 @@
+command
+delay 2
+attitude?
+delay 2
+Battery?
+Time?

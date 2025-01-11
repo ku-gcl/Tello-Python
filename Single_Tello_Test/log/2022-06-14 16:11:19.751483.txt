@@ -1,0 +1,28 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2022-06-14 16:11:19.752195
+end_time: 2022-06-14 16:11:19.766889
+duration: 0.014694
+
+id: 1
+command: attitude?
+response: b'pitch:-1;roll:0;yaw:12;\r\n'
+start time: 2022-06-14 16:11:21.772287
+end_time: 2022-06-14 16:11:21.816776
+duration: 0.044489
+
+id: 2
+command: Battery?
+response: b'unknown command: Battery?'
+start time: 2022-06-14 16:11:23.822283
+end_time: 2022-06-14 16:11:23.866419
+duration: 0.044136
+
+id: 3
+command: Time?
+response: b'unknown command: Time?'
+start time: 2022-06-14 16:11:23.866485
+end_time: 2022-06-14 16:11:23.910583
+duration: 0.044098

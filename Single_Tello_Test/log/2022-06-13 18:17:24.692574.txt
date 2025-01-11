@@ -1,0 +1,21 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2022-06-13 18:17:24.693182
+end_time: 2022-06-13 18:17:24.727626
+duration: 0.034444
+
+id: 1
+command: takeoff
+response: None
+start time: 2022-06-13 18:17:24.727796
+end_time: None
+duration: None
+
+id: 2
+command: emergency
+response: b'ok'
+start time: 2022-06-13 18:17:29.655647
+end_time: 2022-06-13 18:17:29.732136
+duration: 0.076489

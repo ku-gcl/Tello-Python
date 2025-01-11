@@ -1,0 +1,14 @@
+
+id: 0
+command: command
+response: None
+start time: 2022-06-10 16:29:57.189030
+end_time: None
+duration: None
+
+id: 1
+command: attitude?
+response: None
+start time: 2022-06-10 16:30:14.193755
+end_time: None
+duration: None

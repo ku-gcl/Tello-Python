@@ -1,0 +1,14 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2022-06-13 17:48:58.703321
+end_time: 2022-06-13 17:48:58.757184
+duration: 0.053863
+
+id: 1
+command: attitude?
+response: b'pitch:-59;roll:-88;yaw:-177;\r\n'
+start time: 2022-06-13 17:49:00.762970
+end_time: 2022-06-13 17:49:00.793400
+duration: 0.03043

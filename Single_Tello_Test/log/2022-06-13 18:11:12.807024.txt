@@ -1,0 +1,84 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2022-06-13 18:11:12.807564
+end_time: 2022-06-13 18:11:14.055645
+duration: 1.248081
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2022-06-13 18:11:14.055780
+end_time: 2022-06-13 18:11:17.785523
+duration: 3.729743
+
+id: 2
+command: stop 2
+response: b'unknown command: stop'
+start time: 2022-06-13 18:11:17.785564
+end_time: 2022-06-13 18:11:17.839781
+duration: 0.054217
+
+id: 3
+command: left 50
+response: b'error No valid imu'
+start time: 2022-06-13 18:11:17.839842
+end_time: 2022-06-13 18:11:18.397682
+duration: 0.55784
+
+id: 4
+command: stop 2
+response: b'unknown command: stop'
+start time: 2022-06-13 18:11:18.397777
+end_time: 2022-06-13 18:11:18.439493
+duration: 0.041716
+
+id: 5
+command: up 50
+response: b'error No valid imu'
+start time: 2022-06-13 18:11:18.439649
+end_time: 2022-06-13 18:11:18.699560
+duration: 0.259911
+
+id: 6
+command: stop 2
+response: b'unknown command: stop'
+start time: 2022-06-13 18:11:18.699608
+end_time: 2022-06-13 18:11:18.758512
+duration: 0.058904
+
+id: 7
+command: right 50
+response: b'error No valid imu'
+start time: 2022-06-13 18:11:18.758569
+end_time: 2022-06-13 18:11:19.001130
+duration: 0.242561
+
+id: 8
+command: stop 2
+response: b'unknown command: stop'
+start time: 2022-06-13 18:11:19.001191
+end_time: 2022-06-13 18:11:19.052434
+duration: 0.051243
+
+id: 9
+command: down 50
+response: b'error No valid imu'
+start time: 2022-06-13 18:11:19.052481
+end_time: 2022-06-13 18:11:19.517090
+duration: 0.464609
+
+id: 10
+command: stop 2
+response: b'unknown command: stop'
+start time: 2022-06-13 18:11:19.517137
+end_time: 2022-06-13 18:11:19.562468
+duration: 0.045331
+
+id: 11
+command: land
+response: b'ok'
+start time: 2022-06-13 18:11:19.562510
+end_time: 2022-06-13 18:11:22.979006
+duration: 3.416496

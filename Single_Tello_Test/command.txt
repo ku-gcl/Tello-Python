@@ -1,4 +1,5 @@
 command
 takeoff
-delay 5
+up 100
+stop
 land
